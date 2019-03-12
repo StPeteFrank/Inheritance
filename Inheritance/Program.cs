@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inheritance.Classes;
+using System;
 
 namespace Inheritance
 {
@@ -6,6 +7,8 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var horse = new Animal();
+
             Console.WriteLine("Hello Frank!");
         }
     }

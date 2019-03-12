@@ -4,11 +4,21 @@ using System.Text;
 
 namespace Inheritance.Classes
 {
-    class Animal
+    public class Animal
     {
-        public string Species { get; set; }
-        public bool IsItRidable { get; set; }
-        public int Age { get; set; }
+        public string Greeting { get; set; }
+        public string Name { get; set; }
+        public string FavoriteFood { get; set; }
+
+        public void Speak()
+        {
+            Console.WriteLine($"{this.Greeting}");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine($"My favorite food is {FavoriteFood}");
+        }
 
 
     }
