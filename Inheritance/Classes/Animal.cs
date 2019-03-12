@@ -17,7 +17,7 @@ namespace Inheritance.Classes
 
         public void Eat()
         {
-            Console.WriteLine($"My favorite food is {FavoriteFood}");
+            Console.WriteLine($"My name is {Name} and my favorite food is {FavoriteFood}");
         }
 
 

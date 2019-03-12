@@ -7,9 +7,17 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            var horse = new Animal();
+            var horse = new Animal {
+                Name = "Clippity Clop",
+                FavoriteFood = "Hay"
+            };
+
+            horse.Speak();
+            horse.Eat();
 
             Console.WriteLine("Hello Frank!");
+
+            Console.ReadLine();
         }
     }
 }
