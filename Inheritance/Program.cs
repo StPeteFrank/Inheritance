@@ -7,10 +7,9 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            var horse = new Animal {
-                Name = "Clippity Clop",
-                FavoriteFood = "Hay",
-                Greeting = "Hello, Wilbur."
+            var horse = new Horse {
+                Name = "Clippity Clop"
+                
             };
 
             horse.Speak();

@@ -9,6 +9,12 @@ namespace Inheritance.Classes
         public bool DoesHaveRider { get; set; }
         public int CountOfHorseShoes { get; set; }
 
+        public Horse()
+        {
+            this.Greeting = "Neigh";
+            this.FavoriteFood = "Hay";
+        }
+
         public int ShoeMyHorse()
         {
             this.CountOfHorseShoes = 4;
