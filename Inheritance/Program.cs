@@ -21,6 +21,7 @@ namespace Inheritance
 
             cow.Speak();
             cow.Eat();
+            cow.GiveMilk();
 
             var chicken = new Chicken
             {
@@ -28,6 +29,9 @@ namespace Inheritance
             };
             chicken.Speak();
             chicken.Eat();
+            
+
+           
 
             Console.ReadLine();
         }

@@ -15,10 +15,11 @@ namespace Inheritance.Classes
             this.FavoriteFood = "Grass";
         }
 
-        public int MilkMyCow()
+        public void GiveMilk()
         {
-            this.CountOfTimesMilked = 3;
-            return this.CountOfTimesMilked;
+            Console.WriteLine("I give Milk!");
+            //this.CountOfTimesMilked = 3;
+            //return this.CountOfTimesMilked;
         }
     }
 }

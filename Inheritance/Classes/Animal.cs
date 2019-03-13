@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Inheritance.Classes
 {
-    public class Animal      //Base class for Animals with properties and methods.
+    public abstract class Animal      //Abstract base class for Animals with properties and methods. It will prevent anyone form instanciating that class anywhere in the program.
     {
         public string Greeting { get; set; }
         public string Name { get; set; }
