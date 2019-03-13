@@ -9,13 +9,12 @@ namespace Inheritance
         {
             var horse = new Animal {
                 Name = "Clippity Clop",
-                FavoriteFood = "Hay"
+                FavoriteFood = "Hay",
+                Greeting = "Hello, Wilbur."
             };
 
             horse.Speak();
             horse.Eat();
-
-            Console.WriteLine("Hello Frank!");
 
             Console.ReadLine();
         }

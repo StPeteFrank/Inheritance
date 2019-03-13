@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Inheritance.Classes
 {
-    public class Animal
+    public class Animal      //Base class for Animals with properties and methods.
     {
         public string Greeting { get; set; }
         public string Name { get; set; }
