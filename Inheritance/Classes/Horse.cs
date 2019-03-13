@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Inheritance.Classes
 {
+    // POCO Plain Old C# Object
     class Horse : Animal
     {
         public bool DoesHaveRider { get; set; }

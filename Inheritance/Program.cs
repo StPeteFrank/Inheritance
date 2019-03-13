@@ -9,11 +9,18 @@ namespace Inheritance
         {
             var horse = new Horse {
                 Name = "Clippity Clop"
-                
             };
 
             horse.Speak();
             horse.Eat();
+
+            var cow = new Cow
+            {
+                Name = "Betsy"
+             };
+
+            cow.Speak();
+            cow.Eat();
 
             Console.ReadLine();
         }

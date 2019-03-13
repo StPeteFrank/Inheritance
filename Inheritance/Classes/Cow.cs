@@ -4,10 +4,21 @@ using System.Text;
 
 namespace Inheritance.Classes
 {
-    class Cow
+    class Cow : Animal 
     {
-        public string Greeting { get; set; }
-        public string FavoriteFood { get; set; }
-        public string Name { get; set; }
+        public bool DoesHaveRider { get; set; }
+        public int CountOfTimesMilked { get; set; }
+
+        public Cow()
+        {
+            this.Greeting = "Moo";
+            this.FavoriteFood = "Grass";
+        }
+
+        public int MilkMyCow()
+        {
+            this.CountOfTimesMilked = 3;
+            return this.CountOfTimesMilked;
+        }
     }
 }
